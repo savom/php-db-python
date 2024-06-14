@@ -347,4 +347,10 @@ if __name__ == '__main__':
 
 </code></pre>
 
+## php 구현
+php_to_DB folder에 있는 파일을 다운 받아서 바로 구현이 가능하다.
+ctrl + f 를 눌러 conn 부분에 자신의 DB 정보를 기입하면 끝.
+
+
+ex)![image](https://github.com/savom/php-db-python/assets/56549021/635df41c-7a35-4110-b5ad-0141332a6f50)
 
