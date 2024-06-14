@@ -86,7 +86,7 @@ example)python_to_DB.py 파일을 사용하여 step 1에서 만들어 놓은 DB 
 ##            password='your_pw',
 ##            database='your_db_name'
 ##        )
-##        #conn = pymysql.connect(host = "codingmaker.net", port = 33060,  user = "khs0624", password = "0624", db = "khs0624", charset ="utf8") 
+##        #conn = pymysql.connect(host = "your_host", port = your_port,  user = "your_user", password = "your_PW", db = "your_db", charset ="utf8") 
 ##        cursor = conn.cursor()
 ##
 ##        for movie in data:
@@ -181,11 +181,11 @@ def save_to_database(data):
     try:
         # 데이터베이스 연결
         conn = mysql.connector.connect(
-            host='codingmaker.net',
-            port=33060,
-            user='khs0624',
-            password='0624',
-            database='khs0624'
+            host='your_host',
+            port=your_port,
+            user='your_user',
+            password='your_PW',
+            database='your_DB'
         )
         cursor = conn.cursor()
 
