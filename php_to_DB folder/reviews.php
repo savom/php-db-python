@@ -5,7 +5,7 @@
 
     if (isset($_GET['num'])) $num = $_GET['num'];
 
-    $conn = mysqli_connect("codingmaker.net:33060", "khs0624", "0624", "khs0624");
+    $conn = mysqli_connect(your_host.port, ID, PW, folder);
     $sql = "select U.user_id, R.comments, R.movie_score, M.movie_num, R.num
     	from movie_review_test R
     	inner join movie M on R.movie_num = M.movie_num
