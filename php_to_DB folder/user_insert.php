@@ -2,7 +2,7 @@
     $id   = $_POST["id"];
     $pass = $_POST["pass"];
    
-    $conn = mysqli_connect("codingmaker.net:33060", "khs0624", "0624", "khs0624");
+    $conn = mysqli_connect(your_host.port, ID, PW, folder);
 
 	$sql = "insert into movie_user(user_id, user_pw)";
 	$sql .= "values('$id', '$pass')";
