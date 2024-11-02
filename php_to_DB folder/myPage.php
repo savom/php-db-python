@@ -23,7 +23,7 @@
 		</ul>
 	</div>
 	<?php
-		$conn = mysqli_connect("codingmaker.net:33060", "khs0624", "0624", "khs0624");
+		$conn = mysqli_connect(your_host.port, ID, PW, folder);
 	    $sql = "select f.liked_movie, m.movie_poster, f.movie_num, u.user_id, f.chk
 	        from movie_favorite_test f
 	        inner join movie_user u on u.user_num = f.user_num
