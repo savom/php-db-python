@@ -9,7 +9,7 @@
             <div class="inner">
                 <ul class="swiper-wrapper slide_list">
                     <?php
-                    $conn = mysqli_connect("codingmaker.net:33060", "khs0624", "0624", "khs0624");
+                    $conn = mysqli_connect(your_host.port, ID, PW, folder);
                     $sql = "select movie_num, movie_title, movie_poster, ranking from movie where ranking ORDER BY ranking asc";
                     $qry = mysqli_query($conn, $sql);
 
