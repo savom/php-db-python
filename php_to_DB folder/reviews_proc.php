@@ -32,7 +32,7 @@
         $del_submit = "";
     }
 
-    $conn = mysqli_connect("codingmaker.net:33060", "khs0624", "0624", "khs0624");
+    $conn = mysqli_connect(your_host.port, ID, PW, folder);
 
     $u_num_sql = "select user_num from movie_user where user_id='$userid'";
     $u_num_qry = mysqli_query($conn, $u_num_sql);
