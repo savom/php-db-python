@@ -1,7 +1,7 @@
 <?php
     header('Content-Type: application/json');
 
-    $conn = mysqli_connect("codingmaker.net:33060", "khs0624", "0624", "khs0624");
+    $conn = mysqli_connect(your_host.port, ID, PW, folder);
 
     // 사용자가 입력한 검색어
     $search_keyword = trim($_GET['keyword']); // 양쪽 공백 제거
